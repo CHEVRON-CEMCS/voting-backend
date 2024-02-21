@@ -1,0 +1,17 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/osegbbml/chevroncemcs.com"
+PassengerBaseURI "/"
+PassengerNodejs "/home/osegbbml/nodevenv/chevroncemcs.com/14/bin/node"
+PassengerAppType node
+PassengerStartupFile app.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+SetEnv DATABASE osegbbml_exhibitiondata
+SetEnv DATABASE_PASSWORD ebmUv6CO
+SetEnv DATABASE_USERNAME osegbbml_exhibitiondata
+SetEnv EMAIL_PASSWORD ebmUv6CO
+SetEnv HOST localhost
+SetEnv URL https://chevroncemcs.com/
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END
